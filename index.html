@@ -4,30 +4,60 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#07182f">
-  <meta name="description" content="Sovereign Body™ | Human Performance & Development. Mastery Through Structure. Professional coaching in the Houston/Pearland area.">
-  <title>Sovereign Body™ | Human Performance & Development</title>
-  <link rel="preload" href="assets/runner-woman-slim.webp" as="image" type="image/webp">
+  <meta
+    name="description"
+    content="Sovereign Body™ | Human Performance & Development. Mastery Through Structure. Coaching in the Houston/Pearland area."
+  >
+
+  <title>Sovereign Body™ | Human Performance &amp; Development</title>
+
+  <!-- Preload the first slide only to prioritize initial rendering. -->
+  <link rel="preload" href="assets/runner-man.webp" as="image" type="image/webp">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main class="hero">
-    <!-- Decorative background images automatically crossfade; no JavaScript needed. -->
-    <div class="hero-image hero-image--man" aria-hidden="true"></div>
-    <div class="hero-image hero-image--woman" aria-hidden="true"></div>
+    <!--
+      Decorative slides, in the approved order.
+      Animation and image positioning are controlled in styles.css.
+    -->
+    <div class="hero-slide hero-slide--runner-man" aria-hidden="true"></div>
+    <div class="hero-slide hero-slide--runner-woman" aria-hidden="true"></div>
+    <div class="hero-slide hero-slide--gardener" aria-hidden="true"></div>
+    <div class="hero-slide hero-slide--half-kneeling" aria-hidden="true"></div>
+    <div class="hero-slide hero-slide--shelf-reach" aria-hidden="true"></div>
+    <div class="hero-slide hero-slide--volleyball" aria-hidden="true"></div>
+
     <div class="hero-shade" aria-hidden="true"></div>
 
-    <div class="hero-content">
+    <section class="hero-content" aria-labelledby="brand-name">
       <p class="eyebrow">Human Performance &amp; Development</p>
-      <h1>Sovereign Body<span class="trademark">™</span></h1>
+
+      <h1 id="brand-name">
+        Sovereign Body<span class="trademark">™</span>
+      </h1>
+
       <span class="gold-rule" aria-hidden="true"></span>
+
       <h2>Mastery Through Structure.</h2>
-      <p class="intro">An intentional approach to strength, movement, and lasting physical capability.</p>
-      <a class="contact" href="mailto:samuel@besovereignbody.com?subject=Sovereign%20Body%20Inquiry">Inquire about coaching <span aria-hidden="true">↗</span></a>
-    </div>
+
+      <p class="intro">
+        An intentional approach to strength, movement, and lasting physical capability.
+      </p>
+
+      <a
+        class="contact"
+        href="mailto:samuel@besovereignbody.com?subject=Sovereign%20Body%20Inquiry"
+      >
+        Inquire about coaching <span aria-hidden="true">↗</span>
+      </a>
+    </section>
 
     <footer class="site-footer">
       <span>Calm. Controlled. Capable.</span>
-      <a href="mailto:samuel@besovereignbody.com">samuel@besovereignbody.com</a>
+      <a href="mailto:samuel@besovereignbody.com">
+        samuel@besovereignbody.com
+      </a>
     </footer>
   </main>
 </body>
